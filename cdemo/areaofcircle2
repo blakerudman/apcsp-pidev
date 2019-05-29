@@ -1,0 +1,26 @@
+ #include <stdio.h>
+
+void areaofcircle(int r){
+
+float area = 3.14*(r*r);
+printf("Circle with radius %d has area of %f \n", r, area);
+
+}
+
+int main(void) {
+
+int a;
+int b;
+
+scanf("%d", &a);
+scanf("%d", &b);
+  if((b > a) /*&& isdigit(a) && isdigit(b)*/){
+  for (int x = a; x < b; x++){
+
+      areaofcircle(x);
+
+    }
+  }
+return 0;
+
+}
