@@ -11,7 +11,6 @@ int main(int argc, char* argv[])
   int arg = 0;
   while (arg < argc)
   {
-    printf("Bound %d is %s\n", arg, argv[arg]);
     arg++;
   }
   float first;
